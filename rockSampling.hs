@@ -1,5 +1,3 @@
-module PE3 where
-
 data Cell = SpaceCraft Int | Sand | Rock Int | Pit deriving (Eq, Read, Show)
 
 type Grid = [[Cell]]
