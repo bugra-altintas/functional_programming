@@ -1,6 +1,4 @@
-module PE4 where
-
-import Data.Maybe () -- up to you if you want to use it or not
+import Data.Maybe ()
 
 -- Generic DictTree definition with two type arguments
 data DictTree k v = Node [(k, DictTree k v)] | Leaf v deriving Show
